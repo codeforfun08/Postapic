@@ -1,0 +1,155 @@
+body{
+    background-color:#fafafa;
+}
+.newsfeed{
+    margin-top:40px;
+    margin-bottom:20px;
+  
+    
+}
+.post{
+    width:600px;
+    margin:auto;
+    margin-bottom:25px;
+    background-color:#0b0c10;
+    border: 1px solid;
+    border-left: #0b0c10;
+    border-color: #0b0c10;
+
+}
+.pic{
+    object-fit:contain;
+    max-width:600px;
+    max-height:600px;
+    width:100%;
+    background-color: #fff;
+    
+    height:auto;
+}
+.posttop{
+    font-size: 1.3rem;
+    color:aliceblue;
+    height:40px;
+   padding:5px 15px 5px; 
+}
+.postbody{
+    border:1px solid;
+    border-color: #0b0c10;
+    border-bottom: none;
+    border-right: none;
+    padding-top:15px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:15px;
+    height:auto;
+    font-size: 1em;
+    color: #0b0c10;
+    background-color:#fbfbfb;
+    
+}
+.corner{
+    font-size: 1em;
+    color:#f7f7f7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    padding-bottom: 5px;
+    font-size:1.3em;
+    background-color:#f7f7f7;
+}   
+.logot{
+    color: #f7f7f7;
+    font-size: 1.3rem;
+    margin-right: -13rem;
+} 
+.button-sub{
+    background:none;
+    border:none;
+    color:#f7f7f7;  
+    
+}
+ #profilebutton{
+    background:none;
+    border:none;
+    color:#f7f7f7;  
+
+}
+.profiledetails{
+    background-color:white;
+    margin:10px 15px;
+    padding:5px;
+    
+}
+.postdetails{
+    margin:10px 15px;
+    padding:5px;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.ppost{
+    width: 350px;
+    height: 350px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    padding: 5px 5px;
+    
+} 
+.ppic{
+    object-fit:contain;
+    max-width:340px;
+    max-height:245px;
+    width:100%;
+}
+.cont{
+    line-height: 245px;
+    width:343px;
+    height: 245px;
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+.ppostbody{
+    border:1px solid;
+    border-color: #0b0c10;
+    margin-top: 10px;
+    padding:10px 10px;    
+    height:80px;
+    font-size: 1em;
+    color: #0b0c10;
+    background-color:#fbfbfb;
+    
+}
+.create{
+    width:100%;
+    display: block;
+    margin: 50px 10px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  #logout button{
+    border: 2px solid gray; 
+    color: gray;
+    padding: 8px 20px;
+    border-radius: 8px;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .createbtn{
+    margin-top: 10px;
+    background:none;
+    border:1px solid #0b0c10;
+    font-size:1.4em;
+    
+  }

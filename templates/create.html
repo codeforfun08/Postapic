@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="create">
+  <h1>NEW POST:</h1>
+  <form action="createpost" id="postform" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="upload-btn-wrapper">
+        <button class="btn">Upload Image</button>
+        <input type="file" name="pic" />
+        <br>
+      </div>
+      <br>
+      <h3>Describe your pic:</h3>
+      <textarea rows="4" cols="50" name="desc" form="postform">
+      </textarea><br>
+
+      <input class="btn btn-dark"  type="submit" value="POST">
+      
+  </form>
+
+</div>
+
+  {% endblock %}

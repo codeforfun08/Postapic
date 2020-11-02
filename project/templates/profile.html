@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="profiledetails">
+<strong>{{user.username}}</strong><br>
+Name:{{user.first_name}}
+<br>
+Email:{{user.email}}
+<br><br>
+<h1>POSTS:</h1>
+</div>
+<div class="postdetails">
+    {% for post in posts %}
+    <div class="ppost">
+        <div class="cont">
+        <img class="ppic" src="{{post.image.url}}" alt="Card image cap">
+        </div>
+        <div class="ppostbody">
+          <strong><p class="posttext">"{{post.desc}}"</p></strong>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
